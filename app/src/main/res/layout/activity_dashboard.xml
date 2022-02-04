@@ -1,0 +1,40 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00aabb"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Course"
+        android:id="@+id/ad_crs"
+        android:background="#7DA3A6"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Faculty"
+        android:id="@+id/ad_fclty"
+        android:background="#C4CECF"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Exam"
+        android:id="@+id/ad_exm"
+        android:background="#255157"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="View Website"
+        android:background="#8FAFAC"
+        android:id="@+id/viewweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Logout"
+       android:id="@+id/log"
+       android:layout_margin="5dp"
+       android:background="#9288A3"/>
+
+</LinearLayout>
+
